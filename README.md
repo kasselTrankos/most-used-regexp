@@ -12,7 +12,7 @@ For found and replace hashtags:
 ```javascript
 str.replace(/(^|\s)#(\w+)/g, ' <a href="https://twitter.com/hashtag/$2?src=hash" target="blank">#$2</a>');
 ```
-For put "<br>" into html text area recived
+For put "&lt;br&gt;" into html text area recived
 ```javascript
 str.replace(/[\n\r]/g, '<br />')
 ``` 
