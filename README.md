@@ -16,7 +16,10 @@ For put "&lt;br&gt;" into html text area recived
 ```javascript
 str.replace(/[\n\r]/g, '<br />')
 ``` 
-
+For validate a twitter account with non-latin characters:
+```javascript
+/^@?([a-zA-Z0-9_]){1,15}$/.test(str);
+```
 
 
 
